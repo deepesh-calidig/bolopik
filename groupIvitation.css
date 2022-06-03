@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.GI-bdy {
+  background-color: #b6d0e67b;
+}
+.btn-4 {
+  top: 115px;
+  width: 150px;
+  right: 32px;
+  height: 45px;
+  background: #003969 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+}
+.GTB-btn {
+  font-size: 14px;
+}
+.GI-logo-img {
+  width: 30px;
+  opacity: 1 !important;
+}
+
+.GI-head {
+  display: inline-block;
+}
+.GI-outer {
+  width: 80% !important;
+  height: 85vh;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 18px;
+  margin-top: 20px;
+  opacity: 1 !important;
+  position: absolute;
+  left: 18%;
+  top: 25%;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.GI-row-card {
+  width: 97%;
+  height: 110px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 18px;
+  padding-top: 20px;
+  margin-top: 20px !important;
+}
+
+.GI-dp-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.GI-row-card-text-inner {
+  position: absolute;
+  left: 120px;
+}
+
+.btns {
+  padding-left: 10% !important;
+}
+
+.btn-1,
+.btn-2 {
+  width: 12%;
+  height: 6vh;
+}
+
+.btn-1 {
+  margin-right: 10px;
+  background-color: #18c15e !important;
+  color: white !important;
+}
+
+.btn-2 {
+  background-color: #ed3037 !important;
+  color: white !important;
+}
+@media screen and (max-width: 1066px) {
+  .GI-row-card-text-inner {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 866px) {
+  .GI-row-card {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn-5 {
+    width: 80px !important;
+  }
+  .GI-outer {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 866px) {
+  .btn-1,
+  .btn-2 {
+    width: 90px !important;
+  }
+  .btns {
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 866px) {
+  .btn-2 {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  .name-info {
+    display: none;
+  }
+  .GI-dp-img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  .GI-row-card-text-inner {
+    top: 110px;
+    left: 5px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 687px) {
+  .GI-row-card {
+    position: relative;
+  }
+}
+
+.btn-5 {
+  position: absolute;
+  right: 50px;
+  width: 12%;
+  height: 6vh;
+}

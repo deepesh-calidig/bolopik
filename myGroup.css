@@ -1,0 +1,210 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.MG-bdy {
+  background-color: #003a6938 !important;
+  height: 100%;
+  width: 100%;
+  padding: 20px 3% 0 3%;
+}
+
+.MG-txt {
+  color: #003969;
+}
+
+.back-btn {
+  background-color: #003969 !important;
+  position: absolute;
+  right: 7px;
+  top: 0;
+  width: 150px;
+  height: 6vh;
+  box-shadow: 0px 3px 6px #00000029 !important;
+
+  border-radius: 6px;
+}
+
+.back-btn-txt {
+  color: white;
+  font-size: 14px;
+}
+
+.MG-card-box {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 18px;
+}
+
+.MG-card-top-l {
+  background: #003969 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 11px;
+  width: 100%;
+  height: 80px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.MG-card-top-item-1 {
+  padding: 12px 0 0 5%;
+}
+.grp-4-img {
+  width: 30px;
+  height: 30px;
+}
+.grp4-text {
+  color: white;
+}
+.MG-card-top-item-2 {
+  padding: 5% 0 0 10%;
+  height: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+}
+
+.MG-card-top-item-2-text {
+  color: #ababab;
+}
+
+.MG-card-top-item-3 {
+  padding-left: 20%;
+}
+
+.MG-card-top-item-3-btn {
+  background-color: white !important;
+
+  /* height: 10%; */
+}
+
+.MG-card-top-item-3-btn-text {
+  color: #003969 !important;
+}
+
+.MG-card-top-r {
+  padding: 5% 0 0 1%;
+}
+.MG-card-top-r-btn {
+  background-color: #003969 !important;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+
+  height: 7vh;
+}
+.create-img {
+  height: 20px;
+  width: 20px;
+  color: #ababab;
+}
+
+.create-text {
+  color: #ababab;
+  font-size: 13px;
+}
+
+.MG-card-outer {
+  padding: 2% 1% 0 1%;
+}
+
+.MG-card {
+  width: 100%;
+  height: 15vh;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.MG-card-item-2 {
+  padding-left: 10%;
+  padding-top: 30px;
+}
+
+.goku-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+
+.bro-txt {
+  font-weight: 700;
+  color: #003969;
+  font-size: 16px;
+}
+
+.MG-card-btn {
+  background-color: #003969 !important;
+  box-shadow: 0px 3px 6px #00000029 !important;
+
+  border-radius: 6px;
+}
+
+.MG-card-btn-text {
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .bro-txt {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1053px) {
+  .MG-card-top-item-2-text,
+  .grp4-text {
+    font-size: 12px;
+  }
+
+  .grp-4-img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 783px) {
+  .MG-card-top-item-2 {
+    display: none;
+  }
+
+  .grp4-text {
+    position: absolute;
+  }
+  .MG-card-top-item-3 {
+    position: absolute;
+    right: 10px;
+  }
+  .MG-card-top-r-btn {
+    position: absolute;
+    right: 10px;
+    width: 20%;
+    height: 7vh;
+    padding: 0 0 0 0 !important;
+  }
+  .create-text {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 437px) {
+  .grp4-text {
+    top: 60px;
+    left: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .create-text {
+    display: none;
+  }
+  .create-img {
+    width: 35px;
+    height: 35px;
+  }
+}

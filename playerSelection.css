@@ -1,0 +1,410 @@
+.main {
+  padding: 20px 3% 0 3%;
+
+  background-color: #003a6938;
+}
+
+.ps-bdy {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.news-text {
+  color: #003969;
+}
+
+.news-back-btn {
+  background-color: #003969 !important;
+  position: absolute;
+  right: 7px;
+  top: 0;
+  height: 6vh;
+  width: 150px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+}
+
+.news-back-btn-text {
+  color: white;
+  font-size: 14px;
+}
+
+.ps-card {
+  width: 20%;
+  height: 30vh;
+  background-color: white;
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  border-radius: 3px;
+  padding: 20px 0 0 20px;
+}
+
+.e-btn {
+  background-color: #003969 !important;
+  position: absolute;
+  left: 71%;
+  top: 53%;
+}
+
+.d-btn {
+  background-color: #dc3545 !important;
+  position: absolute;
+  left: 70%;
+  top: 82.5%;
+}
+
+.ply-1 {
+  position: absolute;
+  top: 63px;
+  width: 45px;
+  left: 38%;
+}
+
+.fwd-1 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 115px;
+  left: 36.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-2 {
+  position: absolute;
+  top: 63px;
+  width: 45px;
+  left: 48%;
+}
+
+.fwd-2 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 115px;
+  left: 46.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-3 {
+  position: absolute;
+  top: 63px;
+  width: 45px;
+  left: 58%;
+}
+
+.fwd-3 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 115px;
+  left: 56.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-4 {
+  position: absolute;
+  top: 180px;
+  width: 45px;
+  left: 38%;
+}
+
+.fwd-4 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 230px;
+  left: 36.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-5 {
+  position: absolute;
+  top: 180px;
+  width: 45px;
+  left: 48%;
+}
+
+.fwd-5 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 230px;
+  left: 46.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-6 {
+  position: absolute;
+  top: 180px;
+  width: 45px;
+  left: 58%;
+}
+
+.fwd-6 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 230px;
+  left: 56.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-7 {
+  position: absolute;
+  top: 300px;
+  width: 45px;
+  left: 31%;
+}
+
+.fwd-7 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 350px;
+  left: 29.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-8 {
+  position: absolute;
+  top: 300px;
+  width: 45px;
+  left: 43%;
+}
+
+.fwd-8 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 350px;
+  left: 41.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-9 {
+  position: absolute;
+  top: 300px;
+  width: 45px;
+  left: 53%;
+}
+
+.fwd-9 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 350px;
+  left: 51.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-10 {
+  position: absolute;
+  top: 300px;
+  width: 45px;
+  left: 65%;
+}
+
+.fwd-10 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 350px;
+  left: 63.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-11 {
+  position: absolute;
+  top: 500px;
+  width: 45px;
+  left: 48%;
+}
+
+.fwd-11 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 550px;
+  left: 46.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-12 {
+  position: absolute;
+  top: 630px;
+  width: 45px;
+  left: 18%;
+}
+
+.fwd-12 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 680px;
+  left: 16.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-13 {
+  position: absolute;
+  top: 630px;
+  width: 45px;
+  left: 28%;
+}
+
+.fwd-13 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 680px;
+  left: 26.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-14 {
+  position: absolute;
+  top: 630px;
+  width: 45px;
+  left: 38%;
+}
+
+.fwd-14 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 680px;
+  left: 36.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-15 {
+  position: absolute;
+  top: 630px;
+  width: 45px;
+  left: 48%;
+}
+
+.fwd-15 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 680px;
+  left: 46.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-16 {
+  position: absolute;
+  top: 630px;
+  width: 45px;
+  left: 58%;
+}
+
+.fwd-16 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 680px;
+  left: 56.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-17 {
+  position: absolute;
+  top: 630px;
+  width: 45px;
+  left: 68%;
+}
+
+.fwd-17 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 680px;
+  left: 66.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.ply-18 {
+  position: absolute;
+  top: 630px;
+  width: 45px;
+  left: 78%;
+}
+
+.fwd-18 {
+  width: 80px;
+  height: 3vh;
+  background-color: white;
+  top: 680px;
+  left: 76.5%;
+  position: absolute;
+  border-radius: 4px;
+  padding: 0 0 8px;
+  text-align: center;
+}
+
+.drop {
+  width: 10%;
+  height: 6vh;
+  background-color: #fff;
+  position: absolute;
+  top: 520px;
+  left: 28%;
+  box-shadow: 0px 3px 6px #b6d0e69c;
+  border-radius: 31px;
+  padding-left: 18px;
+}

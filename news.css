@@ -1,0 +1,122 @@
+.news-bdy {
+  background-color: #003a6938 !important;
+  height: 110%;
+  width: 100%;
+  padding: 20px 3% 0 3%;
+}
+
+.news-text {
+  color: #003969;
+}
+
+.news-back-btn {
+  background-color: #003969 !important;
+  position: absolute;
+  right: 7px;
+  top: 0;
+  height: 6vh;
+  width: 150px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+}
+
+.news-back-btn-text {
+  color: white;
+  font-size: 14px;
+}
+
+.news-outer {
+  background-color: white;
+  width: 100%;
+  height: 90vh;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 10px !important;
+}
+
+.messi {
+  width: 100%;
+  height: 35vh !important;
+  border-radius: 10px;
+}
+.slider-card {
+  padding: 30px 3% 0 3%;
+}
+.slider-btn2 {
+  width: 40px;
+  height: 40px;
+}
+.slider-btn {
+  width: 40px;
+  height: 40px;
+  transform: rotate(180deg);
+}
+
+/* slider */
+
+.swiper {
+  width: 100%;
+  height: 97vh;
+}
+
+.swiper-slide {
+  background: transparent;
+
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products-3 .swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+.products-3 .swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.sl-btn2.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: auto !important;
+  right: 75px !important;
+}
+
+.sl-btn1.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 25px !important;
+  left: auto;
+}
+.products-3 .swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 82% !important;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.products-3 .swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 82% !important;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}

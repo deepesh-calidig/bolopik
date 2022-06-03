@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* main-cont */
+
+.main-cont {
+  background-color: #003a6920;
+  height: 100%;
+  padding: 50px 5% 0 5%;
+}
+
+/* feature */
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+  border: 0.1px rgb(227, 224, 224) solid;
+
+  border-radius: 10px;
+
+  height: 120px;
+  width: 100%;
+
+  text-align: center;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+.item-1 {
+  background-color: #509fe8;
+}
+
+.item-2 {
+  background-color: #f4bfbd;
+}
+
+.item-5 {
+  background-color: #d199ee;
+}
+
+.item-4 {
+  background-color: #d7e5c7;
+}
+.item-3 {
+  background-color: #acaefb;
+}
+
+@media screen and (max-width: 1200px) {
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5 {
+    margin-bottom: 20px;
+  }
+}
+
+/* games */
+
+.slider-btn {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.slider-btn2 {
+  width: 40px;
+  height: 40px;
+  transform: rotate(180deg);
+}
+
+.games-date {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 4px;
+  width: 130px;
+  position: absolute;
+  top: 0px;
+  padding: 10px 0 0 20px;
+  height: 50px;
+  right: 120px;
+}
+
+@media screen and (max-width: 459px) {
+  .games-date {
+    width: 100px;
+    padding: 10px 0 0 10px;
+  }
+  .games-date-text {
+    font-size: 10px;
+  }
+}
+
+.slider-card {
+  background-color: white;
+  border-radius: 12px;
+  height: 270px;
+  padding: 35px 10px 0 30px;
+}
+
+.item-1a {
+  align-items: center;
+}
+.item-2b {
+  align-items: center;
+  text-align: center;
+}
+.item-3c {
+  align-items: center;
+}
+
+.item-1-img {
+  width: 50px !important;
+  height: 50px !important;
+}
+.item-2-img {
+  width: 50px !important;
+  height: 50px !important;
+  margin-bottom: 10px;
+}
+
+.item-3-img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.score-1 {
+  width: 70%;
+  height: 61px;
+  border: 1px solid #d2d2d2;
+
+  border-radius: 5px;
+  opacity: 1;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 8px 0 0 25%;
+  box-shadow: 0px 3px 6px #0039694f;
+}
+
+.score-2 {
+  width: 70%;
+  height: 61px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  opacity: 1;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 8px 0 0 25%;
+  box-shadow: 0px 3px 6px #0039694f;
+}
+
+.btn-2 {
+  width: 95%;
+  height: 37px;
+  background: #dc3545 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  color: white;
+  border: none;
+
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 459px) {
+  .btn-2 {
+    width: 99%;
+  }
+}
+
+.btn-2 {
+  font-size: 12px;
+}
+/* slider */
+
+.swiper {
+  width: 100%;
+  height: 70vh;
+  position: static !important;
+}
+
+.swiper-slide {
+  background: transparent;
+
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products-3 .swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+.products-3 .swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.sl-btn2.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: auto !important;
+  right: 75px !important;
+}
+
+.sl-btn1.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 25px !important;
+  left: auto;
+}
+.products-3 .swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 20px !important;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.products-3 .swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 20px !important;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+.left-menu {
+  height: 100% !important;
+}
+
+.team-name {
+  font-size: 12px;
+}

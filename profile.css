@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.prof-bdy {
+  background-color: #003a6938 !important;
+  height: 100%;
+  width: 100%;
+  padding: 20px 3% 0 3%;
+}
+
+.prof-text {
+  color: #003969;
+}
+
+.prof-back-btn {
+  background-color: #003969 !important;
+  position: absolute;
+  right: 7px;
+  top: 0;
+  width: 150px;
+  height: 6vh;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+}
+
+.prof-back-btn-text {
+  color: white;
+  font-size: 14px;
+}
+
+.prof-outer {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 10px;
+  padding: 0 0 0 28%;
+}
+
+.prof-box {
+  width: 500px;
+  height: 48vh;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 18px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+.prof-img-outer {
+  position: absolute;
+  top: -50px;
+  left: 10%;
+}
+
+.prof-img {
+  width: 35%;
+  height: 35%;
+}
+
+.admin-text {
+  color: #003969;
+  font-weight: 700;
+}
+
+.adm-prem {
+  color: #ababab;
+  font-size: 13px;
+}
+
+.joined-date {
+  color: #ababab;
+  font-size: 10px;
+}
+.email-img {
+  height: 15px;
+  width: 15px;
+}
+.email-text {
+  color: #003969;
+  font-size: 12px;
+}
+
+.gender-img {
+  height: 15px;
+  width: 15px;
+}
+.gender-text {
+  color: #003969;
+  font-size: 10px;
+}
+.rank-text {
+  color: #003969;
+}
+.rank {
+  color: #003969;
+}
+
+.rank-box {
+  width: 8vh;
+
+  border: 1px solid #cecece;
+}
+@media screen and (max-width: 991px) {
+  .prof-outer {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .prof-outer {
+    padding-left: 3%;
+  }
+}
+@media screen and (max-width: 715px) {
+  .prof-box {
+    width: 97%;
+  }
+}
+@media screen and (max-width: 688px) {
+  .total-pnt {
+    padding-right: 50% !important;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  .total-pnt {
+    padding-right: 40% !important;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .total-pnt {
+    padding-right: 20% !important;
+  }
+}

@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.MP-bdy {
+  background-color: #003a6938;
+  height: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.MP-head {
+  color: #003a69;
+}
+.btn-4 {
+  top: 0;
+  right: 25px;
+  height: 6vh;
+  width: 150px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+}
+.MP-card-outer {
+  padding: 0 0;
+}
+.pdl-0 {
+  padding: 0% !important;
+}
+
+.MP-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 18px;
+  height: 300px;
+  align-items: center;
+
+  width: 99%;
+}
+
+.MP-card-item-1 {
+  padding-left: 10%;
+}
+
+.barcelona-img {
+  width: 50%;
+  width: 50%;
+}
+
+.t1-text {
+  color: #ababab;
+  font-size: 15px;
+}
+.text {
+  border: #ababab 1px solid;
+  color: #003969;
+  width: 150%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.text-2 {
+  border: #ababab 1px solid;
+  color: #003969;
+  width: 150%;
+  margin-left: 50%;
+  text-align: center;
+}
+.t-head {
+  font-size: 12px;
+}
+
+.btn-2 {
+  width: 70%;
+  height: 37px;
+  background: #dc3545 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}
+
+.MP-card-item-2 {
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .pd-top {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 529px) {
+  .btn-2,
+  .back-btn,
+  .t-head {
+    font-size: 10px;
+  }
+  .MP-head {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .t1-text {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 529px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+.pd-r {
+  padding-right: 0 !important;
+}
+
+.row-2 {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 1199px) {
+  .row-2 {
+    padding-top: 25px;
+  }
+}

@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.EFT-bdy {
+  background-color: #003a6938 !important;
+  height: 100%;
+  width: 100%;
+  padding: 20px 3% 0 3%;
+}
+
+.EFT-text {
+  color: #003969;
+}
+@media screen and (max-width: 450px) {
+  .EFT-text {
+    font-size: 20px !important;
+  }
+}
+
+.EFT-back-btn {
+  background-color: #003969 !important;
+  position: absolute;
+  right: 7px;
+  top: 0px;
+  width: 130px;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  height: 45px;
+  border-radius: 6px;
+}
+
+.EFT-back-btn-text {
+  color: white;
+  font-size: 14px;
+}
+.EFT-outer {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 10px;
+  padding: 20px 3% 0 3%;
+}
+
+.EFT-drop-1 {
+  margin-left: -15px;
+}
+.tactic-text {
+  color: #ababab;
+}
+.tactic-select {
+  color: #003969;
+  width: 100%;
+  height: 7vh !important;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cbcbcb;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.team-name-text {
+  color: #ababab;
+}
+
+.team-name-input {
+  color: #003969;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cbcbcb;
+  box-shadow: 0px 3px 6px #b6d0e6;
+  border-radius: 3px;
+  padding-left: 10px;
+  width: 100%;
+  height: 7vh !important;
+}
+
+.save-changes-btn-text {
+  color: white;
+  font-size: 14px;
+}
+
+.save-changes-btn {
+  background-color: #003969 !important;
+  width: 150px;
+  height: 45px;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  border-radius: 6px;
+}
+
+.ads-card {
+  width: 100%;
+  height: 30vh;
+  background: #003969 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+  text-align: center;
+  padding-top: 90px;
+}
